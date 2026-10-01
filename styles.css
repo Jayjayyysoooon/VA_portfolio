@@ -31,7 +31,8 @@
     background:var(--cherry);color:#fff;padding:.8rem 1.6rem;border-radius:999px;border:3px solid var(--ink);
     box-shadow:4px 4px 0 var(--ink);transition:transform .15s, box-shadow .15s}
   .btn:hover{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--ink)}
-  .btn.alt{background:var(--butter);color:var(--ink);margin-left:.5rem}
+  .btn.alt{background:var(--butter);color:var(--ink);margin-left:0}
+  .cta-row{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1rem}
 
   .about-section{padding:2rem 0 4rem;position:relative}
   .about-section::before{content:"";position:absolute;left:0;right:0;top:0;height:100%;background:radial-gradient(circle at top left, rgba(212,91,72,.15), transparent 28%);pointer-events:none}
@@ -123,7 +124,6 @@
   .postcard>div{padding:2rem}
   .postcard .right{border-left:3px dashed var(--ink);display:flex;flex-direction:column;justify-content:center;gap:.5rem;background:var(--butter)}
   .stamp{align-self:flex-end;width:64px;height:76px;border:3px dashed var(--cherry);display:grid;place-items:center;font-size:1.8rem;background:var(--paper);margin-bottom:.8rem}
-  .right a{font-weight:800}
   footer{text-align:center;padding:2rem 1rem 3rem;font-weight:600}
 
   /* modal */
