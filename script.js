@@ -6,12 +6,15 @@
    image: optional thumbnail path, e.g. "images/promo.jpg"
    ============================================================ */
 const WORK = [
-  { id:"reel",  type:"video",  title:"Intro reel",          desc:"A short hello and what I do.",        embed:"", image:"" },
-  { id:"inbox", type:"video",  title:"Inbox zero tour",     desc:"How I sort a messy inbox in a day.",  embed:"", image:"" },
-  { id:"cal",   type:"slides", title:"Calendar setup deck", desc:"A client scheduling system, step by step.", embed:"", image:"" },
-  { id:"social",type:"slides", title:"Content calendar",    desc:"A month of social posts, planned.",   embed:"", image:"" },
-  { id:"travel",type:"video",  title:"Travel plan demo",    desc:"Planning a 5-day trip from scratch.", embed:"", image:"" },
-  { id:"report",type:"slides", title:"Weekly report sample",desc:"A one-page summary clients love.",    embed:"", image:"" }
+  { id:"inbox-zero", type:"video", title:"Inbox Zero: Email Management Demo", desc:"Organizing and clearing a busy inbox with streamlined systems.", embed:"", image:"" },
+  { id:"calendar", type:"video", title:"Calendar Management & Meeting Scheduling", desc:"Keeping calendars aligned and meetings booked without friction.", embed:"", image:"" },
+  { id:"executive-report", type:"slides", title:"Weekly Executive Report Sample", desc:"Turning scattered updates into a polished client-ready summary.", embed:"", image:"" },
+  { id:"data-cleanup", type:"video", title:"Data Entry & Spreadsheet Cleanup", desc:"Cleaning, organizing, and standardizing data for reliable reporting.", embed:"", image:"" },
+  { id:"social-calendar", type:"slides", title:"Social Media Content Calendar", desc:"Planning content themes, posting schedules, and campaign rhythm.", embed:"", image:"" },
+  { id:"crm", type:"video", title:"Client CRM Management Demo", desc:"Tracking client details, tasks, and follow-ups in one organized place.", embed:"", image:"" },
+  { id:"sop", type:"slides", title:"SOP Creation: Client Onboarding Process", desc:"Building repeatable workflows that help clients move smoothly from start to finish.", embed:"", image:"" },
+  { id:"travel-planning", type:"slides", title:"Travel & Business Trip Planning Demo", desc:"Coordinating logistics, schedules, and important details for travel-ready plans.", embed:"", image:"" },
+  { id:"task-board", type:"video", title:"Task Management Dashboard in Trello/Notion", desc:"Creating a clear workflow board to manage priorities and deadlines.", embed:"", image:"" }
 ];
 
 const grid = document.getElementById('grid');
