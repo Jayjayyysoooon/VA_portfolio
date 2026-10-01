@@ -138,9 +138,18 @@
   .close{font:800 1rem var(--body);background:var(--cherry);color:#fff;border:3px solid var(--ink);border-radius:999px;padding:.2rem .9rem;cursor:pointer}
 
   @media (max-width:800px){
-    .hero .wrap,.postcard{grid-template-columns:1fr}
+    .hero .wrap,.about-layout,.postcard{grid-template-columns:1fr}
+    .about-layout{gap:1.5rem}
     .postcard .right{border-left:0;border-top:3px dashed var(--ink)}
-    .photo-stack{max-width:100%}
-    .mini-photo{height:220px;max-height:220px}
+    .photo-stack{width:min(100%,440px);max-width:440px}
+    .mini-photo{height:clamp(190px,45vw,260px);max-height:260px}
+  }
+  @media (max-width:480px){
+    .wrap{padding-inline:1rem}
+    .story-card{padding:1.4rem}
+    .story-card h2{font-size:2rem}
+    .story-card p{font-size:1rem}
+    .photo-stack{gap:.75rem}
+    .mini-photo{border-radius:10px}
   }
   @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
