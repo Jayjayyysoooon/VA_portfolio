@@ -30,6 +30,30 @@
   .btn:hover{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--ink)}
   .btn.alt{background:var(--butter);color:var(--ink);margin-left:.5rem}
 
+  .about-section{padding:2rem 0 4rem}
+  .about-layout{display:grid;grid-template-columns:1.1fr .9fr;gap:2rem;align-items:stretch;margin-bottom:2rem}
+  .story-card,.note-card,.skill-item,.tool-item,.love-block{background:rgba(255,255,255,.72);border:3px solid var(--ink);border-radius:14px;box-shadow:5px 5px 0 var(--ink)}
+  .story-card{padding:2rem;background: #f5e3c2;}
+  .eyebrow{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:var(--cherry);margin-bottom:.5rem}
+  .story-card h2{font-family:var(--display);font-weight:400;font-size:2.3rem;margin-bottom:.8rem}
+  .story-card p{font-size:1.1rem}
+  .photo-stack{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+  .mini-photo{min-height:260px;border:3px solid var(--ink);border-radius:14px;display:flex;align-items:flex-end;justify-content:center;padding:1rem;font-weight:800;color:var(--ink);box-shadow:5px 5px 0 var(--ink);background-size:cover;background-position:center}
+  .portrait-one{background:linear-gradient(180deg, rgba(255,255,255,.2), rgba(35,48,74,.25)), #dfe9cc;}
+  .portrait-two{background:linear-gradient(180deg, rgba(255,255,255,.15), rgba(35,48,74,.25)), #d9d4c8;}
+  .bio-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.5rem}
+  .note-card{padding:1.4rem}
+  .note-card h3{font-family:var(--display);font-weight:400;color:var(--cherry);font-size:1.5rem;margin-bottom:.5rem}
+
+  .skills-section,.tools-section{padding:1rem 0 4rem}
+  .skill-grid,.tool-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+  .skill-item,.tool-item{padding:1rem 1.1rem;font-weight:700;line-height:1.4}
+
+  .love-block{margin-top:1.5rem;padding:1.3rem 1.5rem}
+  .love-block h3{font-family:var(--display);font-size:1.7rem;font-weight:400;color:var(--cherry);margin-bottom:.8rem}
+  .love-tags{display:flex;flex-wrap:wrap;gap:.7rem}
+  .love-tags span{background:var(--paper);border:2px solid var(--ink);border-radius:999px;padding:.35rem .8rem;font-weight:800}
+
   /* retro TV */
   .tv{position:relative;background:var(--butter);border:4px solid var(--ink);border-radius:36px;padding:1.2rem;
     box-shadow:8px 8px 0 var(--ink);display:grid;grid-template-columns:1fr 54px;gap:1rem;transform:rotate(-2deg)}
