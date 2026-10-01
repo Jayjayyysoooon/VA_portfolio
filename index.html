@@ -128,7 +128,16 @@
           <button class="tab" data-filter="video" aria-pressed="false">Videos</button>
           <button class="tab" data-filter="slides" aria-pressed="false">Slides</button>
         </div>
-        <div class="grid" id="grid"></div>
+        <div class="project-carousel" id="projectCarousel" role="region" aria-roledescription="carousel" aria-label="Portfolio projects">
+          <div class="carousel-controls">
+            <button class="carousel-button" type="button" data-carousel="pause" aria-label="Pause automatic project slides" aria-pressed="false" title="Pause automatic project slides">Ⅱ</button>
+            <button class="carousel-button" type="button" data-carousel="previous" aria-label="Previous projects" title="Previous projects">&#8592;</button>
+            <button class="carousel-button" type="button" data-carousel="next" aria-label="Next projects" title="Next projects">&#8594;</button>
+          </div>
+          <div class="carousel-viewport">
+            <div class="grid" id="grid" aria-live="off"></div>
+          </div>
+        </div>
       </div>
     </section>
 
