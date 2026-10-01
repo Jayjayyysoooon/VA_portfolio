@@ -7,7 +7,7 @@
    image: optional thumbnail path, e.g. "images/promo.jpg"
    ============================================================ */
 const WORK = [
-  { id:"inbox-zero", type:"video", title:"Inbox Zero: Email Management Demo", desc:"Organizing and clearing a busy inbox with streamlined systems.", embed:"", image:"" },
+  { id:"inbox-zero", type:"video", title:"Inbox Zero: Email Management Demo", desc:"Organizing and clearing a busy inbox with streamlined systems.", video:"Projects/Inbox Zero Email Management Demo.mp4", embed:"", image:"" },
   { id:"calendar", type:"video", title:"Calendar Management & Meeting Scheduling", desc:"Keeping calendars aligned and meetings booked without friction.", embed:"", image:"" },
   { id:"executive-report", type:"slides", title:"Weekly Executive Report Sample", desc:"Turning scattered updates into a polished client-ready summary.", embed:"", image:"" },
   { id:"data-cleanup", type:"video", title:"Data Entry & Spreadsheet Cleanup", desc:"Cleaning, organizing, and standardizing data for reliable reporting.", embed:"", image:"" },
