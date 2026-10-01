@@ -43,11 +43,9 @@
   .story-card h2{font-family:var(--display);font-weight:400;font-size:2.3rem;margin-bottom:.8rem}
   .story-card p{font-size:1.1rem}
   .photo-stack{display:grid;grid-template-columns:1fr 1fr;gap:1rem;align-items:end;position:relative;z-index:1}
-  .mini-photo{min-height:260px;border:3px solid var(--ink);border-radius:14px;display:flex;align-items:flex-end;justify-content:center;padding:1rem;font-weight:800;color:var(--ink);box-shadow:5px 5px 0 var(--ink);background-size:cover;background-position:center;position:relative;overflow:hidden}
-  .mini-photo::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg, rgba(255,255,255,.1), rgba(35,48,74,.18));}
-  .mini-photo span{position:relative;z-index:1;background:rgba(255,248,238,.8);border:2px solid var(--ink);padding:.25rem .75rem;border-radius:999px}
-  .portrait-one{background:linear-gradient(180deg, rgba(255,255,255,.2), rgba(35,48,74,.25)), #dfe9cc;transform:rotate(-2deg)}
-  .portrait-two{background:linear-gradient(180deg, rgba(255,255,255,.15), rgba(35,48,74,.25)), #d9d4c8;transform:rotate(2deg)}
+  .mini-photo{min-height:260px;border:3px solid var(--ink);border-radius:14px;display:block;object-fit:cover;box-shadow:5px 5px 0 var(--ink);position:relative;overflow:hidden;background:#dfe9cc}
+  .portrait-one{transform:rotate(-2deg);object-position:center top}
+  .portrait-two{transform:rotate(2deg);object-position:center bottom}
   .bio-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.5rem;position:relative;z-index:1}
   .note-card{padding:1.4rem;transform:rotate(-.8deg)}
   .note-card:nth-child(2){transform:rotate(.8deg)}
