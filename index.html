@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name · Virtual Assistant Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shrikhand&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="wrap">
+      <a class="logo" href="#top">Your Name</a>
+      <nav aria-label="Main">
+        <a href="#work">Work</a>
+        <a href="#help">How I help</a>
+        <a href="#hello">Say hello</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <div class="hero">
+      <div class="wrap">
+        <div>
+          <h1>Hi, I'm Your Name, your virtual assistant.</h1>
+          <p>I keep inboxes tidy, calendars calm, and projects moving, so you can get back to the work you love.</p>
+          <a class="btn" href="#work">See my work</a><a class="btn alt" href="#hello">Say hello</a>
+        </div>
+        <div class="tv" aria-label="Featured reel">
+          <div class="screen" role="button" tabindex="0" data-open="reel" aria-label="Play my intro reel">
+            <div><div class="play"></div><strong>My intro reel</strong><span>Click to watch</span></div>
+          </div>
+          <div class="knobs"><div class="knob"></div><div class="knob"></div><div class="vents"><i></i><i></i><i></i><i></i></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="gingham" aria-hidden="true"></div>
+
+    <section id="work">
+      <div class="wrap">
+        <h2>My work, on the air</h2>
+        <p class="lead">Sample videos and slide decks from past projects. Pick a card to open it.</p>
+        <div class="tabs" role="group" aria-label="Filter work">
+          <button class="tab" data-filter="all" aria-pressed="true">Everything</button>
+          <button class="tab" data-filter="video" aria-pressed="false">Videos</button>
+          <button class="tab" data-filter="slides" aria-pressed="false">Slides</button>
+        </div>
+        <div class="grid" id="grid"></div>
+      </div>
+    </section>
+
+    <div class="services" id="help">
+      <section>
+        <div class="wrap">
+          <h2>How I can help</h2>
+          <div class="tickets">
+            <div class="ticket"><h3>Inbox and calendar</h3><p>Email sorting, scheduling, and reminders so nothing slips by.</p></div>
+            <div class="ticket"><h3>Admin and research</h3><p>Data entry, travel planning, and tidy summaries you can skim.</p></div>
+            <div class="ticket"><h3>Social and content</h3><p>Post scheduling, simple graphics, and caption drafts.</p></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section id="hello">
+      <div class="wrap">
+        <div class="postcard">
+          <div>
+            <h2>Let's work together</h2>
+            <p class="lead">Tell me what's piling up on your desk. I'll reply within one business day.</p>
+            <a class="btn" href="mailto:you@example.com">Send an email</a>
+          </div>
+          <div class="right">
+            <div class="stamp" aria-hidden="true">♥</div>
+            <a href="mailto:you@example.com">you@example.com</a>
+            <a href="#">linkedin.com/in/yourname</a>
+            <span>Available Mon–Fri, flexible hours</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>Made with care · © <span id="year"></span> Your Name</footer>
+
+  <dialog id="modal" aria-labelledby="mTitle">
+    <div class="modal-head"><h3 id="mTitle"></h3><button class="close" id="close">Close</button></div>
+    <div class="frame" id="frame"></div>
+    <p id="mDesc" style="margin-top:.8rem"></p>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
