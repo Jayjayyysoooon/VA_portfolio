@@ -42,8 +42,8 @@
   .eyebrow{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:var(--cherry);margin-bottom:.5rem}
   .story-card h2{font-family:var(--display);font-weight:400;font-size:2.3rem;margin-bottom:.8rem}
   .story-card p{font-size:1.1rem}
-  .photo-stack{display:grid;grid-template-columns:1fr 1fr;gap:1rem;align-items:end;position:relative;z-index:1}
-  .mini-photo{min-height:260px;border:3px solid var(--ink);border-radius:14px;display:block;object-fit:cover;box-shadow:5px 5px 0 var(--ink);position:relative;overflow:hidden;background:#dfe9cc}
+  .photo-stack{display:grid;grid-template-columns:1fr 1fr;gap:1rem;align-items:end;position:relative;z-index:1;max-width:440px;margin-left:auto;margin-right:auto}
+  .mini-photo{width:100%;max-height:260px;height:260px;border:3px solid var(--ink);border-radius:14px;display:block;object-fit:cover;box-shadow:5px 5px 0 var(--ink);position:relative;overflow:hidden;background:#dfe9cc}
   .portrait-one{transform:rotate(-2deg);object-position:center top}
   .portrait-two{transform:rotate(2deg);object-position:center bottom}
   .bio-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.5rem;position:relative;z-index:1}
@@ -139,5 +139,7 @@
     .hero .wrap,.postcard{grid-template-columns:1fr}
     .postcard .right{border-left:0;border-top:3px dashed var(--ink)}
     .btn.alt{margin:.6rem 0 0}
+    .photo-stack{max-width:100%}
+    .mini-photo{height:220px;max-height:220px}
   }
   @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
