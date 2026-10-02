@@ -10,7 +10,7 @@ const WORK = [
   { id:"inbox-zero", type:"video", title:"Inbox Zero: Email Management Demo", desc:"Organizing and clearing a busy inbox with streamlined systems.", video:"Projects/Inbox Zero Email Management Demo.mp4", embed:"", image:"" },
   { id:"calendar", type:"video", title:"Calendar Management & Meeting Scheduling", desc:"Keeping calendars aligned and meetings booked without friction.", video:"Projects/Calendar Management & Meeting Scheduling.mp4", embed:"", image:"" },
   { id:"executive-report", type:"slides", title:"Weekly Executive Report Sample", desc:"Turning scattered updates into a polished client-ready summary.", embed:"", image:"" },
-  { id:"data-cleanup", type:"video", title:"Data Entry & Spreadsheet Cleanup", desc:"Cleaning, organizing, and standardizing data for reliable reporting.", embed:"", image:"" },
+  { id:"data-cleanup", type:"video", title:"Data Entry & Excel Cleanup Demo", desc:"Cleaning, organizing, and standardizing data in Excel for reliable reporting.", video:"Projects/Data Entry & Excel Cleanup Demo.mp4", embed:"", image:"" },
   { id:"sales-chart", type:"video", title:"Excel Sales Report Chart Demo", desc:"Creating a dark-style 2D area chart from January–December brand sales, with legends and a data table.", video:"Projects/Sales Report Chart.mp4", embed:"", image:"" },
   { id:"social-calendar", type:"slides", title:"Social Media Content Calendar", desc:"Planning content themes, posting schedules, and campaign rhythm.", embed:"", image:"" },
   { id:"crm", type:"video", title:"Client CRM Management Demo", desc:"Tracking client details, tasks, and follow-ups in one organized place.", embed:"", image:"" },
