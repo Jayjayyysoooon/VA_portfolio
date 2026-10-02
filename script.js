@@ -8,7 +8,7 @@
    ============================================================ */
 const WORK = [
   { id:"inbox-zero", type:"video", title:"Inbox Zero: Email Management Demo", desc:"Organizing and clearing a busy inbox with streamlined systems.", video:"Projects/Inbox Zero Email Management Demo.mp4", embed:"", image:"" },
-  { id:"calendar", type:"video", title:"Calendar Management & Meeting Scheduling", desc:"Keeping calendars aligned and meetings booked without friction.", embed:"", image:"" },
+  { id:"calendar", type:"video", title:"Calendar Management & Meeting Scheduling", desc:"Keeping calendars aligned and meetings booked without friction.", video:"Projects/Calendar Management & Meeting Scheduling.mp4", embed:"", image:"" },
   { id:"executive-report", type:"slides", title:"Weekly Executive Report Sample", desc:"Turning scattered updates into a polished client-ready summary.", embed:"", image:"" },
   { id:"data-cleanup", type:"video", title:"Data Entry & Spreadsheet Cleanup", desc:"Cleaning, organizing, and standardizing data for reliable reporting.", embed:"", image:"" },
   { id:"sales-chart", type:"video", title:"Excel Sales Report Chart Demo", desc:"Creating a dark-style 2D area chart from January–December brand sales, with legends and a data table.", video:"Projects/Sales Report Chart.mp4", embed:"", image:"" },
