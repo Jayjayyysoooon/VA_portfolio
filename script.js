@@ -256,12 +256,15 @@ window.addEventListener('resize', () => {
   resizeTimer = setTimeout(() => render(activeFilter), 120);
 });
 
-document.querySelector('.screen').addEventListener('keydown', e => {
-  if (e.key === 'Enter' || e.key === ' ') {
-    e.preventDefault();
-    openItem('reel');
-  }
-});
+const introScreen = document.querySelector('.screen');
+if (introScreen) {
+  introScreen.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      openItem('reel');
+    }
+  });
+}
 
 document.getElementById('close').addEventListener('click', () => modal.close());
 modal.addEventListener('close', () => frame.innerHTML = ''); // stops playback
